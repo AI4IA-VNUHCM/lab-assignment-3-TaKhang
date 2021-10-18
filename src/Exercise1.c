@@ -16,7 +16,7 @@ void Ex1(int arr[], int n){
 	//Your codes here
 	
  if(n%2 == 0 || n < 3){
-        printf("\nasymmetric\n");
+        printf("asymmetric");
     }
     else {
         int i = 0;
@@ -39,9 +39,6 @@ void Ex1(int arr[], int n){
             printf("symmetric");
     }
 }
-    
-}
-
 int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	argc--;
