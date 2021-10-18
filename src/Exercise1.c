@@ -18,12 +18,14 @@ void Ex1(int arr[], int n){
 int i,j;
 	int sym=0;
 	for (i=0, j= n - 1; (i<= floor((n-1)/2) && j>= ceil((n-1)/2)); i++, j--) {
-		if (arr[i] != arr[j]) sym++;
+		if (arr[i] != arr[j]) 
+			sym++;
 	}
-	if (sym == 0) {
-	printf("symmetric"); }
-	else {
-	break; }
+	sym ==0;
+	printf("Symmetric");
+	if (sym !=0)
+		break;
+	
     
 }
 
