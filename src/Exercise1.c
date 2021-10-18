@@ -15,11 +15,11 @@ Ex:
 void Ex1(int arr[], int n){
 	//Your codes here
 	
-	int i,j;
-	int sym=1;
-	for (i=0, j= n - 1; (i<=(n-1)/2 && j>(n-1)/2; i++, j--) {
-		if (arr[i]== arr[j]) sym++;
+	int sym=0;
+	for (int i=0; i<n/2; i++) {
+		if (arr[i]== arr[n-1-i]) { sym++;
 	}
+}
 	if (sym== n/2) {
 	printf("symmetric"); }
 	else {
