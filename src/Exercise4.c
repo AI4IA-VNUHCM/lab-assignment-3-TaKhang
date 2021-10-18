@@ -54,18 +54,7 @@ int main(int argc, char *argv[]) {
 
     printf("\n");
 
-	
-}
-
-int main(int argc, char *argv[]) {
-	//testing variable, applying it to your algorithm for auto-evaluating
-	argc--;
-	int testcase[argc],i;
-	for(i=0; i<argc;i++){
-		testcase[i] = atoi(argv[i+1]);
-	}
-	
-	printf("%d", Ex4(testcase, argc));
-
 	return 0;
+
+
 }
