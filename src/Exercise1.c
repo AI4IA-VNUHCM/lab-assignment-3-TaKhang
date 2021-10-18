@@ -21,9 +21,9 @@ void Ex1(int arr[], int n){
 		if (arr[i]== arr[j]) sym++;
 	}
 	if (sym== n/2) {
-	printf("assymmetric"); }
-	else {
 	printf("symmetric"); }
+	else {
+	printf("assymmetric"); }
     
 }
 
